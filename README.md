@@ -37,13 +37,20 @@ This project is a deep learning-based web application for detecting brain tumors
 
 ## 📂 Folder Structure
 
-├── main.py # Flask web app
-├── models/ # Jupyter notebook for DL model
-├── templates/index.html # HTML page for UI
-├── static/uploads/ # Uploaded MRI images
-├── mri-images/ # Sample MRI test images
-├── requirements.txt # Dependencies
-└── README.md
+
+## 📂 Folder Structure
+
+- `main.py` – Flask web application (main backend file)
+- `models/`
+  - `brain_tumour_detection_using_deep_learning.ipynb` – Jupyter Notebook for model training
+- `templates/`
+  - `index.html` – Frontend web page (HTML template)
+- `static/uploads/` – Uploaded MRI images for prediction
+- `mri-images/` – Sample MRI test images
+- `uploads/` – Additional uploaded files
+- `requirements.txt` – List of required Python libraries
+- `.gitignore` – To ignore unnecessary files in Git
+- `README.md` – Project documentation (this file)
 
 
 ---
